@@ -27,7 +27,7 @@ dataStructures.forEach(ds => {
         }
         expect(queue.count()).toBe(11);
       });
-    })
+    });
 
     describe('dequeue', () => {
       it('yields elements in insertion order', () => {
